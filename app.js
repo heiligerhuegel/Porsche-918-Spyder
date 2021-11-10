@@ -19,9 +19,9 @@ app.get("/about", (req, res) => {
   res.sendFile(__dirname + "/public/views/about.html");
 });
 
-app.get("/galery", (req, res) => {
+app.get("/gallery", (req, res) => {
   console.log(res);
-  res.sendFile(__dirname + "/public/views/galery.html");
+  res.sendFile(__dirname + "/public/views/gallery.html");
 });
 
 app.listen(3000, () => {
